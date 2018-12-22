@@ -13,9 +13,6 @@ body {
   border-radius: 3px;
   box-shadow: 0 3px 8px 2px rgba(0, 0, 0, 0.09);
 }
-.card .a {
-  transition: 0.2s ease;
-}
 .navBar {
   background-color: #333;
   position: fixed;
