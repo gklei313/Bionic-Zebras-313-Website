@@ -8,10 +8,10 @@ class Announcement {
 }
 
 var Announcements = [
-    new Announcement("Beat up dipaNKAR", "June 15, 2019", "Free for where every one jumps dipankar immediatly after graduation. Seniors Only."),
+    new Announcement("Graduation", "June 15, 2019", "Free for where every one jumps dipankar immediatly after graduation. Seniors Only."),
     new Announcement("Kick off", "January 5, 2019", "Meet at chums and go to kick off event. bring your papers credit card as well as 3 numbers in the back."),
     new Announcement("Yeetus Deleetus", "January 43, 5665", "jefdhioigshoyiusaffhgiuo oirugoise hpodr gtuposeriuut repoiuoiue iuoi euoi tueor tre."),
-    new Announcement("National Weed Day", "April 20, 2019", "4/20, also known as the dankest day of the year")
+    new Announcement("Meme Day", "April 20, 2019", "4/20, also known as the dankest day of the year")
 ];
 
 var announcements_buffer = "";

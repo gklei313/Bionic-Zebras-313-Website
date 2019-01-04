@@ -15,7 +15,7 @@
 
 <body>
     <!-- NAVBAR -->
-    <div class="navBar">
+    <div class="navBar" id="navbar">
         <div class="container">
             <a href="#title"><img src="src/BionicZerbs.PNG" height="50px" alt="link"></a>
             <a href="#home">Home</a>
@@ -27,18 +27,18 @@
     </div>
     <!-- NAVBAR -->
 
-    <!-- Title Start-->
-    <div id="title" class="container">
-        <div class="card">
+    <div class="container">
+
+        <!-- Title Start-->
+        <div id="title" class="card">
             <br><br><br><br>
             <h1>The Bionic Zerbs 313</h1>
         </div>
-    </div>
-    <!-- Title End -->
 
-    <!-- HOME START -->
-    <div id="home" class="container">
-        <div class="card">
+        <!-- Title End -->
+
+        <!-- HOME START -->
+        <div id="home" class="card">
             <h3>Welcome!</h3>
             <p>
                 Welcome to the official website of FIRST Robotics Competition Team 313: The Bionic Zebras!<br>
@@ -57,12 +57,11 @@
                 <img src="src/buildseason2018.jpg" width="100%" alt="">
             </p>
         </div>
-    </div>
-    <!-- HOME END -->
 
-    <!-- ABOUT START -->
-    <div id="about" class="container">
-        <div class="card">
+        <!-- HOME END -->
+
+        <!-- ABOUT START -->
+        <div id="about" class="card">
             <h3>About</h3>
             <p>
                 Founded by Mr. John Vuchovich and Mr. Scott Simons in 1998 (and now mentored by Joshua Barnett and
@@ -77,22 +76,20 @@
                 This team consists of six individual sub-teams, each having their own role in making every season a
                 success.
         </div>
-    </div>
-    <!-- ABOUT END -->
 
-    <!-- ANNOUNCEMENTS START -->
-    <div id="announcements" class="container">
-        <div class="card">
+        <!-- ABOUT END -->
+
+        <!-- ANNOUNCEMENTS START -->
+        <div id="announcements" class="card">
             <h3>Announcements</h3>
             <div id="display_announcements">
             </div>
         </div>
-    </div>
-    <!-- ANNOUNCEMENTS END -->
 
-    <!-- SUBTEAMS START -->
-    <div id="subteams" class="container">
-        <div class="card">
+        <!-- ANNOUNCEMENTS END -->
+
+        <!-- SUBTEAMS START -->
+        <div id="subteams" class="card">
             <h3>List of Subteams:</h3>
             <p>
                 <h5>Build:</h5>
@@ -129,12 +126,10 @@
                 team-wide volunteering events in an effort to give back to the community.
             </p>
         </div>
-    </div>
-    <!-- SUBTEAMS END -->
+        <!-- SUBTEAMS END -->
 
-    <!-- CONTACT START -->
-    <div id="contact" class="container">
-        <div class="card">
+        <!-- CONTACT START -->
+        <div id="contact" class="card">
             <h3>Contact Us:</h3>
             The most efficient way to contact us is through our primary business email. An alternate contact is
             our
@@ -143,18 +138,39 @@
 
             Business Email: frcteam313@gmail.com<br>
             Alternate Contact: mentor@bioniczebras.net<br>
-            <a target="_blank" href=https://www.facebook.com/FRCTeam313>Facebook</a>
-            <a target="_blank" href=https://www.youtube.com/channel/UCquIPgYJ8BcI5MQvTPu3W1w>YouTube</a>
-            <a target="_blank" href=https://twitter.com/frcteam313>Twitter</a>
-            <a target="_blank" href="https://www.instagram.com/frcteam313/">Instagram</a>
+            <a target="_blank" href=https://www.facebook.com/FRCTeam313>Facebook </a> <a target="_blank" href=https://www.youtube.com/channel/UCquIPgYJ8BcI5MQvTPu3W1w>YouTube
+                </a> <a target="_blank" href=https://twitter.com/frcteam313>Twitter </a> <a target="_blank" href="https://www.instagram.com/frcteam313/">Instagram</a>
             Lead Mentor Phone Number(Josh Barnett):(734)502-3871<br>
             Alternate Lead Mentor Phone Number(Karl Heinrich):(734)629-6508<br><br>
         </div>
-    </div>
-    <!-- CONTACT END -->
+        <!-- CONTACT END -->
 
-    <!-- Announcements JS -->
-    <script src="js/AnnouncementsJS.js"></script>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/Announcements.js"></script>
+    <script>
+        //Scroll animation
+        $(".content-link").click(function () {
+            $('html,body').animate({
+                scrollTop: $(this.hash).offset().top
+            }, 400);
+
+        });
+
+        //Hide navbar on scroll down
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function () {
+            var currentScrollPos = window.pageYOffset;
+            if (prevScrollpos > currentScrollPos) {
+                document.getElementById("navbar").style.top = "0";
+            } else {
+                document.getElementById("navbar").style.top = "-110px";
+            }
+            prevScrollpos = currentScrollPos;
+        }
+    </script>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
