@@ -18,6 +18,29 @@ body {
   border-radius: 3px;
   box-shadow: 0 3px 8px 2px rgba(0, 0, 0, 0.09);
 }
+#title {
+  margin-top: 140px;
+  padding-top: 20px;
+}
+#gallery button {
+  height: 100%;
+  width: 100%;
+  background-color: #f2f2f2;
+  border: none;
+  cursor: pointer;
+  transition: 200ms ease;
+}
+#gallery .card {
+  padding: 0px;
+  margin: 0px;
+  background-color: #f2f2f2;
+}
+#gallery button:hover {
+  background-color: #999;
+}
+#gallery img {
+  transition: ease;
+}
 .navBar {
   z-index: 1;
   position: fixed;
