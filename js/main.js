@@ -3,7 +3,7 @@ $(".content-link").click(function () {
     $('html,body').animate({
         scrollTop: $(this.hash).offset().top
     }, 400);
-
+    setTimeout(hidebar, 2000);
 });
 
 //Hide navbar on scroll down
@@ -17,3 +17,9 @@ window.onscroll = function () {
     }
     prevScrollpos = currentScrollPos;
 }
+
+function hidebar () {
+    document.getElementById("navbar").style.top = "-110px";
+}
+
+

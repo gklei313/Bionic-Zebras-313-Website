@@ -7,7 +7,7 @@ var Pictures = [
 ];
 
 //Index of current picture
-var CurrentPic = 0;
+var CurrentPic = 8;
 
 //Buffer with all pictures
 var PicBuffer = "";
