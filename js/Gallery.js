@@ -1,3 +1,4 @@
+//Array of pictures
 var Pictures = [
     "src/buildseason2018.jpg",
     "src/IMG_4220.JPG",
@@ -5,7 +6,10 @@ var Pictures = [
     "src/IMG_5175.JPG"
 ];
 
+//Index of current picture
 var CurrentPic = 0;
+
+//Buffer with all pictures
 var PicBuffer = "";
 
 //Format divs and pics
