@@ -1,9 +1,9 @@
 //Array of pictures
 var Pictures = [
-    "src/buildseason2018.jpg",
-    "src/IMG_4220.JPG",
-    "src/IMG_5000.JPG",
-    "src/IMG_5175.JPG"
+    "src/IMG_0001.jpg",
+    "src/IMG_0002.jpg",
+    "src/IMG_0003.jpg",
+    "src/IMG_0004.jpg"
 ];
 
 //Index of current picture
