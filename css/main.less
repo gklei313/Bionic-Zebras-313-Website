@@ -2,26 +2,33 @@
 html {
     scroll-behavior: smooth;
 }
+
 body {
-    font-family: 'Roboto';
+    font-family: "Roboto";
     background-color: #c7c7c7;
     margin: 0;
     padding: 0px 0;
     transition: 2000ms ease;
+    h1, h2, h3, h4, h5, h6{
+        font-weight:bold; 
+        color: #4c6c97;
+    }
 }
+
 .card {
     box-shadow: 0 3px 8px 2px rgba(0, 0, 0, 0.1);
     padding: 14px 14px;
     margin: 10px auto;
     background-color: white;
-    color: black;
-    border-radius: 3px;
+    border-radius: 20px;
     box-shadow: 0 3px 8px 2px rgba(0, 0, 0, 0.09);
 }
-#title{
+
+#title {
     margin-top: 140px;
     padding-top: 20px;
 }
+
 #gallery {
     button {
         height: 100%;
@@ -30,19 +37,16 @@ body {
         border: none;
         cursor: pointer;
         transition: 200ms ease;
-    }
-    .card{
-        padding: 0px;
-        margin: 0px;
-        background-color: #f2f2f2;
+        border-radius: 20px;
     }
     button:hover {
         background-color: #999;
     }
     img {
-        transition: ease;
+        border-radius: 20px;
     }
 }
+
 .navBar {
     z-index: 1;
     position: fixed;
@@ -64,6 +68,7 @@ body {
         }
     }
 }
+
 #display_announcements {
     max-height: 500px;
     overflow-y: auto;
@@ -86,15 +91,24 @@ body {
 }
 
 #sponsors {
-    .card{
+    #sponsor {
         background-color: #f2f2f2;
-        max-height: 21em;
-        max-width: 21em;
+        max-height: 21.3em;
+        max-width: 21.3em;
         height: flex;
         width: flex;
     }
-    img{
+    img {
         height: 100%;
-        width:100%;
+        width: 100%;
+    }
+    #benifits {
+        background-color: #f2f2f2;
+        border-collapse: collapse;
+        width: 100%;
+        table {
+            border: 1px solid #d2d2d2;
+            background-color: #e5e5e5;
+        }
     }
 }

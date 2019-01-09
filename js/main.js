@@ -1,9 +1,11 @@
 //Scroll animation
 $(".content-link").click(function () {
-    $('html,body').animate({
-        scrollTop: $(this.hash).offset().top
-    }, 400);
-    setTimeout(hidebar, 2000);
+    $('html, body').animate({scrollTop: $('#contact').offset().top - 100}, 'slow');
+});
+
+//Hide navbar 1.5 sec after click navbar button
+$("a").click(function () {
+    setTimeout(function hidebar() {document.getElementById("navbar").style.top = "-110px";} , 1500)
 });
 
 //Hide navbar on scroll down
@@ -17,9 +19,3 @@ window.onscroll = function () {
     }
     prevScrollpos = currentScrollPos;
 }
-
-function hidebar () {
-    document.getElementById("navbar").style.top = "-110px";
-}
-
-
