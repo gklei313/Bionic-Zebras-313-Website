@@ -1,13 +1,13 @@
 //Array of pictures
 var Pictures = [
-    "src/IMG_0001.jpg",
-    "src/IMG_0002.jpg",
-    "src/IMG_0003.jpg",
-    "src/IMG_0004.jpg"
+    "src/gallery/IMG_0001.jpg",
+    "src/gallery/IMG_0002.jpg",
+    "src/gallery/IMG_0003.jpg",
+    "src/gallery/IMG_0004.jpg"
 ];
 
 //Index of current picture
-var CurrentPic = 8;
+var CurrentPic = 0;
 
 //Buffer with all pictures
 var PicBuffer = "";
