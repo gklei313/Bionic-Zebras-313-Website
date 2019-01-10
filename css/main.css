@@ -70,12 +70,8 @@ body h6 {
   max-height: 500px;
   overflow-y: auto;
 }
-#display_announcements .card {
-  background-color: #f2f2f2;
-}
 #display_announcements #main {
   padding-left: 15px;
-  width: 180px;
 }
 #display_announcements #side {
   padding-left: 15px;
@@ -86,22 +82,43 @@ body h6 {
   margin-bottom: 0px;
 }
 #sponsors #sponsor {
+  min-width: 300px;
   background-color: #f2f2f2;
-  max-height: 21.3em;
-  max-width: 21.3em;
-  height: flex;
-  width: flex;
 }
-#sponsors img {
+#sponsors #sponsor img {
   height: 100%;
   width: 100%;
 }
 #sponsors #benifits {
   background-color: #f2f2f2;
-  border-collapse: collapse;
-  width: 100%;
+  height: 93%;
+  min-width: 400px;
 }
-#sponsors #benifits table {
-  border: 1px solid #d2d2d2;
-  background-color: #e5e5e5;
+#resources .card {
+  min-width: 300px;
+  transition: 200ms ease;
+  background-color: #f2f2f2;
+}
+#resources .card:hover {
+  background-color: #999;
+}
+#resources img {
+  height: 100px;
+  width: 100px;
+}
+#resources a {
+  text-align: center;
+  text-decoration: none;
+}
+#contact img {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+}
+#contact .card {
+  padding: 10px;
+  background-color: #f2f2f2;
+}
+#contact .card:hover {
+  background-color: #999;
 }

@@ -9,8 +9,13 @@ body {
     margin: 0;
     padding: 0px 0;
     transition: 2000ms ease;
-    h1, h2, h3, h4, h5, h6{
-        font-weight:bold; 
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-weight: bold;
         color: #4c6c97;
     }
 }
@@ -72,13 +77,8 @@ body {
 #display_announcements {
     max-height: 500px;
     overflow-y: auto;
-    .card {
-        background-color: #f2f2f2;
-    }
-    #main,
-        {
+    #main {
         padding-left: 15px;
-        width: 180px;
     }
     #side {
         padding-left: 15px;
@@ -92,23 +92,50 @@ body {
 
 #sponsors {
     #sponsor {
+        min-width: 300px;
         background-color: #f2f2f2;
-        max-height: 21.3em;
-        max-width: 21.3em;
-        height: flex;
-        width: flex;
-    }
-    img {
-        height: 100%;
-        width: 100%;
+        img {
+            height: 100%;
+            width: 100%;
+        }
     }
     #benifits {
         background-color: #f2f2f2;
-        border-collapse: collapse;
+        height: 93%;
+        min-width: 400px;
+    }
+}
+
+#resources {
+    .card {
+        min-width: 300px;
+        transition: 200ms ease;
+        background-color: #f2f2f2;
+        &:hover {
+            background-color: #999;
+        }
+    }
+    img {
+        height: 100px;
+        width: 100px;
+    }
+    a {
+        text-align: center;
+        text-decoration: none;
+    }
+}
+
+#contact {
+    img {
+        height: 100%;
         width: 100%;
-        table {
-            border: 1px solid #d2d2d2;
-            background-color: #e5e5e5;
+        margin: 0px;
+    }
+    .card {
+        padding: 10px;
+        background-color: #f2f2f2;
+        &:hover {
+            background-color: #999;
         }
     }
 }
