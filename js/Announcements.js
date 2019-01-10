@@ -14,11 +14,11 @@ var Announcements = [
 ];
 
 //Buffer with all announcement
-var announcements_buffer = "";
+var announcements_buffer = "<br>";
 
 //Format announcements divs
 for (i = 0; i < Announcements.length; i++) {
-    announcements_buffer += "<div class='row'><div class'col' id='main'><h5>" + Announcements[i].date + "</h5></div><div class'col' id='side'><h4>" + Announcements[i].heading+ "</h4><br>" + Announcements[i].details + "</div></div>"
+    announcements_buffer += "<h4>" + Announcements[i].heading + "</h4><h6>" + Announcements[i].date+ "</h6>" + Announcements[i].details + "<br><br>"
 }
 
 document.getElementById("display_announcements").innerHTML = announcements_buffer;

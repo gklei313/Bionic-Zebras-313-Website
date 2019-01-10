@@ -21,10 +21,15 @@ body h6 {
 .card {
   box-shadow: 0 3px 8px 2px rgba(0, 0, 0, 0.1);
   padding: 14px 14px;
-  margin: 10px auto;
+  margin: 15px auto;
   background-color: white;
   border-radius: 20px;
-  box-shadow: 0 3px 8px 2px rgba(0, 0, 0, 0.09);
+  box-shadow: 0 3px 8px 3px rgba(0, 0, 0, 0.1);
+}
+.card .card {
+  background-color: #f0f0f0;
+  border: none;
+  margin: 10px auto;
 }
 #title {
   margin-top: 140px;
@@ -33,7 +38,7 @@ body h6 {
 #gallery button {
   height: 100%;
   width: 100%;
-  background-color: #f2f2f2;
+  background-color: #f0f0f0;
   border: none;
   cursor: pointer;
   transition: 200ms ease;
@@ -62,42 +67,31 @@ body h6 {
   text-align: center;
   text-decoration: none;
   padding: 0 15px;
+  transition: 200ms ease;
 }
 .navBar a:hover {
   background-color: #111;
 }
-#display_announcements {
-  max-height: 500px;
-  overflow-y: auto;
-}
-#display_announcements #main {
-  padding-left: 15px;
-}
-#display_announcements #side {
-  padding-left: 15px;
-}
-#display_announcements h4,
-#display_announcements h3 {
-  margin-top: 0px;
-  margin-bottom: 0px;
+#sponsors #group {
+  padding: 0px;
+  margin: 0px;
 }
 #sponsors #sponsor {
-  min-width: 300px;
-  background-color: #f2f2f2;
+  min-width: 210px;
+  max-width: 245px;
+  padding: 10px;
 }
 #sponsors #sponsor img {
   height: 100%;
   width: 100%;
 }
 #sponsors #benifits {
-  background-color: #f2f2f2;
   height: 93%;
   min-width: 400px;
 }
 #resources .card {
   min-width: 300px;
   transition: 200ms ease;
-  background-color: #f2f2f2;
 }
 #resources .card:hover {
   background-color: #999;
@@ -117,7 +111,6 @@ body h6 {
 }
 #contact .card {
   padding: 10px;
-  background-color: #f2f2f2;
 }
 #contact .card:hover {
   background-color: #999;
