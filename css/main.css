@@ -4,7 +4,7 @@ html {
 }
 body {
   font-family: "Roboto";
-  background-color: #c7c7c7;
+  background-color: #002e58;
   margin: 0;
   padding: 0px 0;
   transition: 2000ms ease;
@@ -16,7 +16,7 @@ body h4,
 body h5,
 body h6 {
   font-weight: bold;
-  color: #4c6c97;
+  color: #004688;
 }
 .card {
   box-shadow: 0 3px 8px 2px rgba(0, 0, 0, 0.1);
@@ -27,13 +27,14 @@ body h6 {
   box-shadow: 0 3px 8px 3px rgba(0, 0, 0, 0.1);
 }
 .card .card {
-  background-color: #f0f0f0;
+  background-color: #dfe3e6;
   border: none;
   margin: 10px auto;
 }
 #title {
   margin-top: 140px;
   padding-top: 20px;
+  background-color: #ffcb05;
 }
 #gallery button {
   height: 100%;
@@ -45,7 +46,7 @@ body h6 {
   border-radius: 20px;
 }
 #gallery button:hover {
-  background-color: #999;
+  background-color: #ffcb05;
 }
 #gallery img {
   border-radius: 20px;
@@ -54,7 +55,7 @@ body h6 {
   z-index: 1;
   position: fixed;
   display: block;
-  background-color: #333;
+  background-color: #ffcb05;
   line-height: 60px;
   width: 100%;
   top: 0;
@@ -63,14 +64,15 @@ body h6 {
 }
 .navBar a {
   float: left;
-  color: white;
+  color: #4c6c97;
   text-align: center;
   text-decoration: none;
   padding: 0 15px;
   transition: 200ms ease;
 }
 .navBar a:hover {
-  background-color: #111;
+  background-color: #004688;
+  color: #ffcb05;
 }
 #sponsors #group {
   padding: 0px;
@@ -94,7 +96,7 @@ body h6 {
   transition: 200ms ease;
 }
 #resources .card:hover {
-  background-color: #999;
+  background-color: #ffcb05;
 }
 #resources img {
   height: 100px;
@@ -113,5 +115,5 @@ body h6 {
   padding: 10px;
 }
 #contact .card:hover {
-  background-color: #999;
+  background-color: #ffcb05;
 }
