@@ -3,7 +3,13 @@ var Pictures = [
     "src/gallery/IMG_0001.jpg",
     "src/gallery/IMG_0002.jpg",
     "src/gallery/IMG_0003.jpg",
-    "src/gallery/IMG_0004.jpg"
+    "src/gallery/IMG_0004.jpg",
+    "src/gallery/IMG_0005.jpg",
+    "src/gallery/IMG_0006.jpg",
+    "src/gallery/IMG_0007.jpg",
+    "src/gallery/IMG_0008.jpg",
+    "src/gallery/IMG_0009.jpg",
+    "src/gallery/IMG_0010.jpg"
 ];
 
 //Index of current picture
