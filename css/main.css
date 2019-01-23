@@ -77,6 +77,10 @@ body h6 {
   background-color: #004688;
   color: #ffcb05;
 }
+#display_announcements .card {
+  min-width: 300px;
+  height: 85%;
+}
 #sponsors #group {
   padding: 0px;
   margin: 0px;
@@ -89,6 +93,18 @@ body h6 {
 #sponsors #sponsor img {
   height: 100%;
   width: 100%;
+}
+#sponsors #sponsorl {
+  min-width: 100px;
+  max-width: 245px;
+  padding: 10px;
+}
+#sponsors #sponsorl img {
+  height: 100%;
+  width: 100%;
+}
+#sponsors #sponsorl:hover {
+  background-color: #ffcb05;
 }
 #sponsors #benefits {
   min-width: 300px;
