@@ -5,10 +5,10 @@ html {
 
 body {
     font-family: "Roboto";
-    background-color: #002e58;
+    background-color: #001b35;
     margin: 0;
     padding: 0px 0;
-    transition: 2000ms ease;
+    //transition: 2000ms ease;
     h1,
     h2,
     h3,
@@ -16,18 +16,19 @@ body {
     h5,
     h6 {
         font-weight: bold;
-        color: #004688;
+        color: #ffcb05;
     }
+    color: white;
 }
 .card {
     box-shadow: 0 3px 8px 2px rgba(0, 0, 0, 0.1);
     padding: 14px 14px;
     margin: 15px auto;
-    background-color: white;
-    border-radius: 20px;
+    background-color: #40505f;
+    border-radius: 5px;
     box-shadow: 0 3px 8px 3px rgba(0, 0, 0, 0.10);
     .card {
-        background-color: #dfe3e6;
+        background-color: #a6b0b6;
         border: none;
         margin: 10px auto;
     }
@@ -36,50 +37,34 @@ body {
 #title {
     margin-top: 140px;
     padding-top: 20px;
-    background-color: #ffcb05;
 }
 
-#gallery {
-    button {
-        height: 100%;
-        width: 100%;
-        background-color: #004688;
-        color: #ffcb05;
-        font-weight: bolder;
-        border: none;
-        cursor: pointer;
-        transition: 200ms ease;
-        border-radius: 20px;
-    }
-    button:hover {
-        background-color: #ffcb05;
-        color: #004688;
-    }
-    img {
-        border-radius: 20px;
-    }
+
+img {
+    border-radius: 5px;
 }
+
 
 .navBar {
     z-index: 1;
     position: fixed;
     display: block;
-    background-color: #ffcb05;
+    background-color: #00162b;
     line-height: 60px;
     width: 100%;
     top: 0;
     transition: top 0.3s;
-    box-shadow: 0 3px 8px 2px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 3px 8px 2px rgba(255, 217, 0, 0.4);
     a {
         float: left;
-        color: #4c6c97;
+        color: #ffffff;
         text-align: center;
         text-decoration: none;
         padding: 0 15px;
         transition: 200ms ease;
         &:hover {
-            background-color: #004688;
-            color: #ffcb05;
+            background-color: #ffcb05;
+            color: #001b35;
         }
     }
 }
@@ -151,5 +136,18 @@ body {
         &:hover {
             background-color: #ffcb05;
         }
+    }
+}
+
+#carouselExampleIndicators {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p {
+        font-weight: bold;
+        color: #ffffff;
     }
 }

@@ -4,10 +4,10 @@ html {
 }
 body {
   font-family: "Roboto";
-  background-color: #002e58;
+  background-color: #001b35;
   margin: 0;
   padding: 0px 0;
-  transition: 2000ms ease;
+  color: white;
 }
 body h1,
 body h2,
@@ -16,66 +16,50 @@ body h4,
 body h5,
 body h6 {
   font-weight: bold;
-  color: #004688;
+  color: #ffcb05;
 }
 .card {
   box-shadow: 0 3px 8px 2px rgba(0, 0, 0, 0.1);
   padding: 14px 14px;
   margin: 15px auto;
-  background-color: white;
-  border-radius: 20px;
+  background-color: #40505f;
+  border-radius: 5px;
   box-shadow: 0 3px 8px 3px rgba(0, 0, 0, 0.1);
 }
 .card .card {
-  background-color: #dfe3e6;
+  background-color: #a6b0b6;
   border: none;
   margin: 10px auto;
 }
 #title {
   margin-top: 140px;
   padding-top: 20px;
-  background-color: #ffcb05;
 }
-#gallery button {
-  height: 100%;
-  width: 100%;
-  background-color: #004688;
-  color: #ffcb05;
-  font-weight: bolder;
-  border: none;
-  cursor: pointer;
-  transition: 200ms ease;
-  border-radius: 20px;
-}
-#gallery button:hover {
-  background-color: #ffcb05;
-  color: #004688;
-}
-#gallery img {
-  border-radius: 20px;
+img {
+  border-radius: 5px;
 }
 .navBar {
   z-index: 1;
   position: fixed;
   display: block;
-  background-color: #ffcb05;
+  background-color: #00162b;
   line-height: 60px;
   width: 100%;
   top: 0;
   transition: top 0.3s;
-  box-shadow: 0 3px 8px 2px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 3px 8px 2px rgba(255, 217, 0, 0.4);
 }
 .navBar a {
   float: left;
-  color: #4c6c97;
+  color: #ffffff;
   text-align: center;
   text-decoration: none;
   padding: 0 15px;
   transition: 200ms ease;
 }
 .navBar a:hover {
-  background-color: #004688;
-  color: #ffcb05;
+  background-color: #ffcb05;
+  color: #001b35;
 }
 #display_announcements .card {
   min-width: 300px;
@@ -135,4 +119,14 @@ body h6 {
 }
 #contact .card:hover {
   background-color: #ffcb05;
+}
+#carouselExampleIndicators h1,
+#carouselExampleIndicators h2,
+#carouselExampleIndicators h3,
+#carouselExampleIndicators h4,
+#carouselExampleIndicators h5,
+#carouselExampleIndicators h6,
+#carouselExampleIndicators p {
+  font-weight: bold;
+  color: #ffffff;
 }
